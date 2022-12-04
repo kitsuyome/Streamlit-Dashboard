@@ -8,8 +8,7 @@ import wget
 
 
 
-data = open("/Users/kitsuyomi/Desktop/crimedata.csv")
-df = pd.read_csv(data)
+df = pd.read_csv('./crimedata.csv')
 
 
 
