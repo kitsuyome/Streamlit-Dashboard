@@ -9,7 +9,7 @@ import wget
 
 
 url = 'https://www.dropbox.com/s/9mc5ejwcgjhd9sn/crimedata.csv?dl=0'
-df = pd.read_csv('crimedata.csv')
+df = pd.read_csv('crimedata.csv?dl=0')
 
 
 
