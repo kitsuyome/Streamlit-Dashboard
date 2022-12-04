@@ -7,9 +7,7 @@ import plotly.express as px
 import wget
 
 
-url = 'http://www.futurecrew.com/skaven/song_files/mp3/razorback.mp3'
-data = wget.download(url)
-df = pd.read_csv(data)
+df = pd.read_csv('/Users/kitsuyomi/Desktop/crimedata.csv')
 
 
 
