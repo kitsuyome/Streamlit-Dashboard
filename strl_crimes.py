@@ -7,7 +7,9 @@ import plotly.express as px
 import wget
 
 
-df = pd.read_csv('/Users/kitsuyomi/Desktop/crimedata.csv')
+
+data = open("/Users/kitsuyomi/Desktop/crimedata.csv")
+df = pd.read_csv(data)
 
 
 
